@@ -1,0 +1,67 @@
+Articulo1
+# ejericcio1
+base=input ("base=")
+altura=input("altura=")
+area=base*altura/2
+print="el area es",area
+
+#ejercicio2
+preciodolar=float(input("Ingrese el valor actual del dolar: "))
+cantdolar= float(input("Ingrese la cantidad de dolares a convertir: "))
+cpesos= cantdolar*preciodolar
+print=(cantdolar,"Dolares equivalen a ",cpesos,"pesos colombianos")
+
+#ejercicio3
+Gc=int(input("Ingrese los grados Centigrados a convertir"))
+F=((9/5)*Gc)+32
+print=(Gc, "grados Centigrados equivale a", f, "grados Fahrenheit.")
+
+
+#ejercicio4
+S= 5*365*24*60*60
+print= ("Un lustro tiene", S, "segundos")
+
+#ejercicio5
+Sl=227940000/300000
+print= ("La luz del sol tarde en llegar a marte", Sl, "segundos")
+
+#ejercicio6
+circuferencia=3.1416*50
+Recorrido=(circuferencia/100000)
+Vueltas=(1/Recorrido)
+print=("el numero de vueltas que da la llanta en 1KM es de: ",Vueltas)
+
+
+#ejercicio7
+Eduser1= input("introduce la edad 1")
+Eduser2= input("introduce la edad 2")
+if Eduser1==Eduser2:
+	print("true")
+else  print("false")
+
+
+
+#Ejercicio8
+print("introduce la calificacion de Español")
+cal1=input()
+print("introduce la calificacion de Matematicas")
+cal2=input()
+print("introduce la calificacion de economia")
+cal3=input()
+print("introduce la calificacion de programacion")
+cal4=input()
+print("introduce la calificacion de ingles")
+cal5=input()
+calif1n= float (cal1)
+calif2n= float (cal2)
+calif3n= float (cal3)
+calif4n= float (cal4)
+calif5n= float (cal5)
+suma= calif1n+calif2n+calif3n+calif4n+calif5n
+promedio= suma/3
+print= ("El proedio de las 5 materias es: %d" %promedio)
+
+
+
+
+

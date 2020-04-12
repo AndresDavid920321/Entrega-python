@@ -1,0 +1,83 @@
+Articulo 2 
+
+#ejercicio1
+materias={"Calculo":7,"Quimica":10,"Matemática":7,"Física":8}
+a=tuple(materias.values())
+b=len(a)
+suma=0
+for val in a:
+    suma+=val
+print("promedio",suma/b)
+
+
+#ejerciocio2
+lista = []
+cantidadN = 10
+mayor = 0
+menor = 0
+i = 1
+while (cantidadN <= 10):
+	numero = int(input("Numero #" + str(i) + ": "))
+	lista.append(numero)
+	i=i + 1
+	cantidad = cantidad - 1
+
+	mayor = max(lista)
+	menor = min (lista)
+	suma = sum(lista)
+	promedio = suma/10
+
+	print ("Numero mayor: ", mayor)
+	print ("Numero menor: ", menor)
+	print ("la suma de los numeros es: ", suma)
+	print ("El promedio de los numero es: ", promedio)
+
+
+
+
+#Ejercicio3
+igual, aux = 0, 0
+	lista= []
+	for ind in reversed(range(0, len(letra))):
+		letra= input ("Ingrese palabra: ")
+		lista.append(letra)
+
+		if texto[ind].lower() == texto[aux].lower():
+    igual += 1
+  aux += 1
+if len(texto) == igual:
+  print("la palabra es palindromo!")
+else:
+  print("la palabra no es palindromo!")
+
+
+#Ejercicio4
+Caracteres = ['a''b''c''d''e''f''g''h''i''j''k''l''m''n''o''p''q''r''t''u''v''w''x''y''z']
+Numeros = ['1''2''3''4''5''6''7''8''9''10''11''12''13''14''15''16''17''18''19''20''21''22''23''24']
+cambio= str.maketrans(Caracteres,Numeros)
+str = input ("Ingrese palabra: ")
+print (str.traslate(cambio))
+
+
+
+def obtener_vocales (frase):
+	vocal1="aA"
+	vocal2="eE"
+	vocal3="iI"
+	vocal4="oO"
+	vocal5="uU"
+return set([c for c in frase if c in vocal1,vocal2,vocal3,vocal4,vocal5,])
+
+texto = input("Digite frase")
+print(obtener_vocales(texto))
+print(len(obtener_vocales(texto)))
+
+
+
+#Ejercicio5
+print "Los numeros pares del 0 al 100 son: "
+n= 0
+while n < 100:
+	if n%2== 0
+	print n
+	n+=1

@@ -1,0 +1,70 @@
+Articulo3
+
+#Ejercicio1
+numbers = [2, 3, 5, 7, 11,1,4,82,6,9]
+total = 0
+for num in numbers:
+      print(num)
+      total += num
+
+
+#Ejercicio2
+cant=0
+acu=0
+print"Cuando desee terminar escriba -1"
+
+while(True):
+	estatura = float(input("Digite estatura: "))
+
+	if(estatura == -1):
+		break
+
+	cant = cant + 1
+	acu = acu + nota
+promedio = acu / cant
+print ("promedio de estatura estatura: "+str(promedio))
+
+
+
+#Ejercicio3
+n=int(input("Ingrese la cantidad de numeros a procesar"))
+if n>0
+
+mayoresoiguales=0
+menoresoiguales=0
+ 
+ for i in range (n):
+ 	dato = int(input("ingrese un numero: "))
+
+ 	if dato >= 0:
+ 		mayoresoiguales+=1
+ 	else:
+ 		menoresoiguales+=1
+
+print ("la cantidad de numeros mayores o iguales a cero son: ", mayoresoiguales)
+print ("la cantidad de numeros menores o iguales a cero son: ", menoresoiguales)
+else:
+	print("Digite un numero positivo")
+
+
+
+
+
+
+
+#Ejercicio4
+numero=1
+mult=0
+
+while (numero <= 100):
+	if numero%2==0:
+		print("numero par: "+ str(numero))
+		part=numero
+    else 
+        print("numero impar: "+ str(numero))
+        imp=numero
+
+   mult= part*imp
+
+   print("la multiplicacion es: ", mult)
+
